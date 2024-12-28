@@ -7,6 +7,13 @@ if Teleport then
         if not game:IsLoaded() then
             game.Loaded:Wait()
         end
+_G.AutoExecute = true
+_G.FarmTime = 20
+_G.SlappleFarm = true
+_G.FarmToolbox = true
+_G.FarmOrbs = true
+_G.RemoteFire = 1
+_G.Anchor = true
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro666Pro/PremiumSlapFarm/main/main.lua'))()
 	]])
 end	
